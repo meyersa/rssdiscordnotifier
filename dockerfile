@@ -1,10 +1,10 @@
-FROM node
+FROM node 
 
 WORKDIR /usr/src
 
 COPY package*.json ./
 
-CMD [ "npm", "install"]
+RUN npm install
 
 COPY . . 
 
