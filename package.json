@@ -1,0 +1,15 @@
+{
+  "name": "rssdiscordnotifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Meyers6464",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "rss-parser": "^3.13.0"
+  }
+}
